@@ -1,0 +1,25 @@
+package test.study;
+
+public class MainClass02 {
+	public static void main(String[] args) {
+		
+//		int kor=90;
+//		int math=95;
+//		
+//		double ave=(kor+math)/2.0;
+//		System.out.println("평균: " + ave);
+		System.out.println("main메소드가 시작되었습니다.");
+		//지역변수는 선언만하면 변수가 만들어지지 않고 만들 준비만 한다
+		int num1;
+		int num2=0;
+		int num3=10;
+		//값이 대입되는 시점에 변수가 만들어진다. 
+		num1=999;
+		System.out.println(num1);
+		
+		String name;
+		String name2=null;
+		String name3="김구라";
+		System.out.println("main메소드가 종료되었습니다");
+	}
+}
