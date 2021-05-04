@@ -11,7 +11,6 @@ public class MainClass05 {
 		r1.height=20;
 		//Rect 객체의 메소드를 호출해서 리턴되는 int 값을 a 라는 지역변수에 담기 
 		int a=r1.getArea();
-		
 		Rect r2=new Rect();
 		r2.width=5;
 		r2.height=10;
