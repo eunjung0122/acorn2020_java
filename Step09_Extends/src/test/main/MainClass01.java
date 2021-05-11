@@ -9,6 +9,7 @@ public class MainClass01 {
 		//Phone 클래스로 객체 생성해서 참조값을 지역 변수에 담기 
 		Phone p1=new Phone();
 		Object p2=new Phone();
+	
 		
 		//HandPhone 클래스로 객체 생성해서 참조값을 지역 변수에 담기
 		HandPhone p3=new HandPhone();

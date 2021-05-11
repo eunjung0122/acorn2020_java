@@ -15,6 +15,8 @@ public class MainClass02 {
 		}
 	};
 	
+	
+	
 	public static void main(String[] args) {
 		/*
 		 *  Remocon 인터페이스를 구현한 익명의 local inner 클래스의 생성자를 호출해서

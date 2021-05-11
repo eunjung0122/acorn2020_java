@@ -10,6 +10,8 @@ public class Men extends Person{
 	public void seeMovie() {
 		System.out.println("영화를 봐요");
 	}
+	
+	
 }
 
 

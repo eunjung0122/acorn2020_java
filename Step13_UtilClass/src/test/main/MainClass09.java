@@ -51,8 +51,10 @@ public class MainClass09 {
 		int f=(int)list.get(0).get("num");
 		String g=(String)list.get(0).get("name");
 		String h=(String)list.get(0).get("addr");
-		
 		int i=((String)list.get(0).get("addr")).length();
+		
+		String addr=(String)list.get(0).get("addr");
+	
 	}
 }
 

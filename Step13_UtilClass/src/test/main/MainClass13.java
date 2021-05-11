@@ -27,7 +27,7 @@ public class MainClass13 {
 			int tmp=it.next();
 			System.out.println(tmp);
 		}
-		 
+		
 	}
 }
 

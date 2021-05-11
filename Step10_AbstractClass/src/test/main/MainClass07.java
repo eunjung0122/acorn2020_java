@@ -32,6 +32,15 @@ public class MainClass07 {
 				System.out.println("지상 공격을 해요!");
 			}
 		});
+		
+		useWeapon(new Weapon() {
+			
+			@Override
+			public void attack() {
+				// TODO Auto-generated method stub
+				
+			}
+		});
 	}
 	
 	public static void useWeapon(Weapon w) {

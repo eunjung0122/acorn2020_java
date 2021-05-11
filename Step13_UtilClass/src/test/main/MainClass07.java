@@ -42,7 +42,9 @@ public class MainClass07 {
 		//참조 테스트
 		List<MemberDto> a = list;
 		MemberDto b = list.get(0);
+		
 		int c = list.get(0).getNum();
+		
 		String d = list.get(0).getName();
 		String e = list.get(0).getAddr();
 		int f = list.get(0).getName().length();
