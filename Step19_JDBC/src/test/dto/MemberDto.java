@@ -14,7 +14,6 @@ public class MemberDto {
 		this.name = name;
 		this.addr = addr;
 	}
-	//필드의 접근 메소드 setter, getter 메소드 
 	public int getNum() {
 		return num;
 	}
@@ -33,6 +32,7 @@ public class MemberDto {
 	public void setAddr(String addr) {
 		this.addr = addr;
 	}
+	
 	
 }
 

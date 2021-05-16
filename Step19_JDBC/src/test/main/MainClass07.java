@@ -40,12 +40,12 @@ public class MainClass07 {
 				String name=rs.getString("name");
 				String addr=rs.getString("addr");
 				//MemberDto 객체를 생성해서 회원 한명의 정보를 담는다.
-				MemberDto dto=new MemberDto();
-				dto.setNum(num);
-				dto.setName(name);
-				dto.setAddr(addr);
+				MemberDto md=new MemberDto();
+				md.setNum(num);
+				md.setName(name);
+				md.setAddr(addr);
 				//MemberDto 객체를 List 에 누적 시킨다.
-				list.add(dto);
+				list.add(md);
 			}
 		}catch(Exception e) {
 			e.printStackTrace();

@@ -8,7 +8,8 @@ import java.io.IOException;
 public class MainClass15 {
 	public static void main(String[] args) {
 		File memoFile=new File("c:/acorn2020/myFolder/memo.txt");
-		//필요한 객체의 참조값을 담을 지역 변수를 미리 만든다.
+		//필요한 객체의 참조값을 담을 지역 변수를 미리 만든다. exception이 발생하니까
+		//왜 굳이 바깥에 지역변수 만들까? 사용범위가 얘가 더 넓음 
 		FileReader fr=null;
 		BufferedReader br=null;
 		try {
